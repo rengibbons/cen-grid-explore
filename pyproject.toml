@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "cen-grid-explore"
+version = "0.1.0"
+description = ""
+authors = ["Ren Gibbons <ren@edgeanalytics.io>"]
+readme = "README.md"
+packages = [{include = "cen_grid_explore"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+matplotlib = "^3.7.2"
+numpy = "^1.25.2"
+pandas = "^2.0.3"
+scikit-learn = "^1.3.0"
+ipykernel = "^6.25.1"
+ipympl = "^0.9.3"
+statsmodels = "^0.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
